@@ -6,6 +6,7 @@ int main()
     while (i < 5)
     {
         cout << i << " ";
+        i++;
     }
-    return 0
-};
+    return 0;
+}
