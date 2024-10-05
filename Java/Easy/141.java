@@ -1,7 +1,7 @@
 class Main {
     public static void main(String[] args) {
-        int a = 10;
-        String s = (String) a;
+        String a = "10";
+        String s = a;
         System.out.println(s);
     }
 }
