@@ -1,15 +1,20 @@
 #include <iostream>
+using namespace std;
+
 int main()
 {
     int day = 2;
     switch (day)
     {
     case 1:
-        std::cout << "Monday" << std::endl;
+        cout << "Monday" << endl;
+        break;
     case 2:
-        std::cout << "Tuesday" << std::endl;
+        cout << "Tuesday" << endl;
+        break;
     default:
-        std::cout << "Unknown" << std::endl;
+        cout << "Unknown" << endl;
+        break;
     }
     return 0;
 }
