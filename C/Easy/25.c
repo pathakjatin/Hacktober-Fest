@@ -2,7 +2,7 @@
 #include<string.h>
  
 int main() {
-	int x[] = "hello";
-    printf("%d", x);
+	char x[] = "hello";
+    printf("%s", x);
 	return 0;
 }
