@@ -3,6 +3,6 @@ class Main {
         int a = 1;
         do {
             System.out.println(a);
-        } while a < 10;
+        } while (a < 10);
     }
 }
