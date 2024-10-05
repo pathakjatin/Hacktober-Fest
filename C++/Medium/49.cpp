@@ -7,6 +7,8 @@ int main()
         if (i == 3)
         {
             cout << i << endl;
+        break;
         }
-        break return 0;
     }
+        return 0;
+}
