@@ -8,11 +8,11 @@ int main()
     {
         cout << b << endl;
     }
-    elseif(a == b)
+    else if(a == b)
     {
-        cout << a << "and" << b << endl
+        cout << a << " and " << b << endl;
     }
-    else()
+    else
     {
         cout << a << endl;
     }
