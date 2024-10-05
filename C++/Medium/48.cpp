@@ -3,14 +3,22 @@
 using namespace std;
 class MyClass
 {
+private:
+    int y;
+
 public:
     int x;
 
-private:
-    int y;
-} int main()
+    void sety(int a)
+    {
+        y = a;
+    }
+
+};
+ int main()
 {
-    myClass obj;
+    MyClass obj;
     obj.x = 10;
-    obj.y = 25;
+    // obj.y = 25;
+    obj.sety(25);
 }
