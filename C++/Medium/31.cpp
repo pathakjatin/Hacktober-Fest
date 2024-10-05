@@ -1,4 +1,6 @@
 #include <iostream>
+using namespace std;
+
 class Calculator
 {
 public:
@@ -14,6 +16,6 @@ public:
 int main()
 {
     Calculator calc;
-    std::cout << calc.add(5, 3) << std::endl;
+    cout << calc.add(5, 3) << endl;
     return 0;
 }
