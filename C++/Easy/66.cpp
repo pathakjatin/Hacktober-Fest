@@ -5,7 +5,7 @@ int add(int a, int b)
 }
 int main()
 {
-    int result = add(5);
+    int result = add(5, 64);
     std::cout << result << std::endl;
     return 0;
 }
