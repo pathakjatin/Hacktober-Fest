@@ -3,17 +3,17 @@
 using namespace std;
 int main()
 {
-    char str[100];
-    int count = 0;
+    string str;
+    int count = 1;
     cout << "Enter a string: ";
     cin >> str;
-    for (int i = 0; i <= strlen(str); i++)
+    for (int i = 0; i <= str.length() ; i++)
     {
         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
         {
             count++;
         }
     }
-    cout << "Number of vowels: " << count - 1 << endl;
+    cout << "Number of vowels: " << count  << endl;
     return 0;
 }
