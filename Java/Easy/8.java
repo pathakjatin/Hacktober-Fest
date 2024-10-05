@@ -1,7 +1,8 @@
 class Main {
     public static void main(String[] args) {
         int a = 5;
-        double result = Math.pow(a);
+        int b = 2;
+        double result = Math.pow(a,b);
         System.out.println(result);
     }
 }
